@@ -1,0 +1,12 @@
+tovarlar={
+    1:{"name": "Nan","baga":110},
+    2:{"name":"syt 1L","baga":450},
+    3:{"name":"cola","baga":500}
+}
+for tovar,data in tovarlar.items():
+    print(tovar,'we have',data['name'],'price',data['baga'],'tg')
+tt=int(input("what you want:"))
+ts=int(input('your wanted item  amount'))
+x=tovarlar[tt]["baga"]
+y=x*ts
+print('your all price',y,",",'you buy',ts,tovarlar[tt]["name"])
