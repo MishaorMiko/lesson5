@@ -1,0 +1,3 @@
+bagalar={"Islam":[90,54,75],"Damir":[95,95,95],"Madina":[75,85,85],"Jojo":[85,85,85],"Zhannur":[98,97,97]}
+for name,baga in bagalar.items():
+    print(name,sum(baga)/len(baga))
