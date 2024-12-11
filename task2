@@ -1,0 +1,4 @@
+bagalar={"Islam":[90,54,75],"Damir":[95,95,95],"Madina":[75,85,85],"Jojo":[85,85,85],"Zhannur":[98,97,97]}
+n=len(bagalar["Islam"])
+baga=sum(bagalar["Islam"])
+print(baga//n)
